@@ -177,4 +177,55 @@
  .latest-articles {
      display: flex;
  }
+
+ .newsimage {
+     width: 368px;
+     height: 276px;
+ }
  
+ .newsfield {
+     width: 392px;
+     height: 704px;
+     padding-left: 20px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+ .newsfield h2 {
+     margin-left: 0px;
+ }
+
+ .container {
+     display: flex;
+ }
+
+ .deals {
+     width: 294px;
+     height: 298px;
+     margin: 10px;
+ }
+
+ .deals img {
+     width: 270px;
+     height: 201px;
+ }
+
+ .deals p {
+   font-family: Helvetica, sans-serif;
+}
+
+.first-footer {
+    margin-left: -10px;
+    margin-right: -8px;
+    height: 160px;
+    background-color: #131313;
+}
+
+.second-footer {
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 97px;
+    background-color: black;
+}
