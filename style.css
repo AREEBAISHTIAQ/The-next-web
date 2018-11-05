@@ -1,0 +1,98 @@
+.nav {
+    padding-left: 0;
+    height: 80px;
+    position: absolute;
+    box-shadow: 0 0 32px rgba(0,0,0,.15);
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.nav-tnw {
+    background: #131313;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    max-height: 32px;
+    position: absolute;
+    z-index: 2;
+    width: 1440px;
+}
+
+.left {
+   margin-left: 80%;
+}
+
+.nav-tnw {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav-tnw li {
+    float: left;
+    margin-left: 12px;
+    position: relative;
+}
+
+.active {
+    color: #fff;
+}
+
+.nav-tnw li a {
+    margin: 0;
+    padding: 0; 
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.strong {
+    color: hsla(0, 0%, 100%, .6);
+}
+
+.nav-sections li a {
+    margin: 0;
+    padding: 0; 
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #aaa;
+}
+
+.nav-sections li a:hover {
+    color: #000;
+}
+
+.nav-sections {
+    display: flex;
+    margin-top: 46px;
+    list-style: none;
+    margin-left: -50px;
+    font-size: 13px;
+}
+
+.icons {
+    width: 20px;
+}
+
+.icon-area {
+    display: flex;
+    margin-left: 45%;
+    padding-right: 5px;
+    border-right: 1px solid gray;
+}
+
