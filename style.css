@@ -229,3 +229,61 @@
     height: 97px;
     background-color: black;
 }
+
+.sub-article h4 {
+    color: red;
+    width: 260px;
+    font-family: Helvetica, sans-serif;
+    margin-top: -5px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sub-article h5 {
+    color: red;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 15px;
+    font-weight: 500;
+    width: 270px;
+}
+
+.sub-article {
+    display: flex;
+    background-color: rgba(255,68,34,.06);
+    width: 368px;
+    height: 90px;
+}
+
+.sub-article div {
+    width: 270px;
+}
+
+.sub-article img {
+    width: 96px;
+    height: 90px;
+}
+
+.headline {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsfield ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(65, 63, 63);
+    border-bottom: 1px solid #eee;
+}
+
+.newsfield ul li::before {
+    content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
