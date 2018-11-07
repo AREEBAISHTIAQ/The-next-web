@@ -148,6 +148,10 @@
     margin-left: 20px;
 }
 
+.content h2:hover {
+    color: black;
+}
+
 .latest {
     margin-left: 20px;
 }
@@ -160,6 +164,10 @@
 .latest p {
     width: 270px;
     font-family: Helvetica, sans-serif;
+}
+
+.latest p:hover {
+    color: red;
 }
 
 .latest-p a {
@@ -189,8 +197,8 @@
      padding-left: 20px;
      margin-left: 10px;
      margin-right: 10px;
-     margin-top: 10px;
-     margin-bottom: 10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
  }
 
  .newsfield h2 {
@@ -216,18 +224,57 @@
    font-family: Helvetica, sans-serif;
 }
 
+.deals p:hover {
+    color: red;
+}
+
 .first-footer {
     margin-left: -10px;
     margin-right: -8px;
-    height: 160px;
+    height: 90px;
     background-color: #131313;
+    padding-left: 37%;
+    padding-right: 30%;
+    padding-top: 5%;
+}
+
+.first-footer ul li img {
+    width: 25px;
+}
+
+.first-footer ul {
+    list-style: none;
+    display: block;
+}
+
+.first-footer ul li {
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.first-footer a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.first-footer a:hover {
+    color: white;
 }
 
 .second-footer {
     margin-left: -8px;
     margin-right: -8px;
-    height: 97px;
+    height: 50px;
     background-color: black;
+    padding-left: 30%;
+    padding-right: 25%;
+    color: lightgray; 
+    font-size: 12px;
+    padding-top: 3%;
 }
 
 .sub-article h4 {
@@ -275,15 +322,25 @@
     list-style: none;
     padding-bottom: 10px;
     padding-top: 10px;
-    color: rgb(65, 63, 63);
+    color: rgb(97, 96, 96);
     border-bottom: 1px solid #eee;
+    margin-left: -7%;
+}
+
+.newsfield ul li:hover {
+    color: black;
 }
 
 .newsfield ul li::before {
     content: "\2022";
-  color: red;
-  font-weight: bold;
-  display: inline-block; 
-  width: 1em; 
-  margin-left: -1em; 
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+.second-footer img {
+    width: 35px;
+    margin: 0;
 }
