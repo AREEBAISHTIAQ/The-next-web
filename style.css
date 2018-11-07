@@ -109,7 +109,7 @@
 }
 
 .newspaper {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/moonday-morning-796x450.png");
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/tssb-fraud-cryptocurrency-cease-desist-scammers-bitcoin-aws-australia-796x448.png");
     background-size: 100% 100%;
 }
 
@@ -131,7 +131,7 @@
 
 .iphone {
     margin-top: 10px;
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/iPhone-5G-796x418.jpg");
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/TDID-0711-796x417.png");
     background-size: 100% 100%;
 }
 
@@ -380,4 +380,13 @@
     font-size: 50px;
     margin-left: 20px;
     margin-top: 20%;
+}
+
+.main-side h2 {
+    color: red;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35%;
+    margin-top: -0.5px;
 }
