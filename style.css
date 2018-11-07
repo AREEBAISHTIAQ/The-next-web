@@ -104,7 +104,7 @@
     margin-top: 8%;
     width: 935px;
     height: 544px;
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Indian-Bitcoin-Miami-Airport-1-796x454.png");
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/university-canada-bitcoin-cryptocurrency-796x431.jpg");
     background-size: 100% 100%;
 }
 
@@ -231,7 +231,7 @@
 .first-footer {
     margin-left: -10px;
     margin-right: -8px;
-    height: 90px;
+    height: 140px;
     background-color: #131313;
     padding-left: 37%;
     padding-right: 30%;
@@ -343,4 +343,37 @@
 .second-footer img {
     width: 35px;
     margin: 0;
+}
+
+.cover-gradient img {
+    width: 935px;
+    display: block;
+    height: 900px;
+    margin-top: -132px;
+    position: absolute;
+}
+
+.cover-logo {
+    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
+    background-size: auto auto;
+    background-size: contain;
+    left: 24px;
+    max-width: 50%;
+    height: 100%;
+    max-height: 112px;
+    line-height: 1;
+    top: 24px;
+    pointer-events: none;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.gradient img {
+    width: 935px;
+    display: block;
+    height: 440px;
+    margin-top: -29px;
+    position: absolute;
 }
