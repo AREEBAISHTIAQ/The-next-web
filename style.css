@@ -558,18 +558,55 @@
 
 
 @media only screen and  (max-width: 884px) {
+
+.main-article {
+    margin-top: 8%;
+    width: 1055px;
+    height: 544px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/university-canada-bitcoin-cryptocurrency-796x431.jpg");
+    background-size: 100% 100%;
+}
+
+.newspaper {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/tssb-fraud-cryptocurrency-cease-desist-scammers-bitcoin-aws-australia-796x448.png");
+    background-size: 100% 100%;
+}
+
+.side-article {
+    margin-top: 8%;
+    margin-left: 10px;
+    width: 343px;
+    height: 268px;
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-side {
+    margin-top: 5.3%;
+}
+
+.iphone {
+    margin-top: 10px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/TDID-0711-796x417.png");
+    background-size: 100% 100%;
+}
+
     .cover-gradient img {
-        width: 625px;
+        width: 515px;
         display: block;
         height: 900px;
         position: absolute;
     }
 
     .gradient img {
-        width: 625px;
+        width: 515px;
         display: block;
         height: 440px;
-        margin-top: 10%;
+        margin-top: 12%;
         position: absolute;
     }
 
@@ -600,7 +637,7 @@
         max-height: 32px;
         position: absolute;
         z-index: 2;
-        width: 884px;
+        width: 875px;
     }
     
     .left {
@@ -641,7 +678,7 @@
 
 
 .content {
-    width: 884px;
+    width: 804px;
     margin-left: 8%;
     margin-top: 5%;
 }
@@ -679,11 +716,11 @@
  .container {
      display: grid;
      grid-template-columns: 350px 350px;
-     width: 1010px;
+     width: 804px;
  }
 
  .content {
-    width: 1010px;
+    width: 804px;
  }
 
  .sub-article {
@@ -709,7 +746,8 @@
 
 
 .first-footer a {
-    font-size: 9px;
+    font-size: 12px;
+    margin-left: 1px;
 }
 
 .second-footer {
@@ -717,7 +755,233 @@
 }
 
 .latest-articles {
-    width: 1010px;
+    width: 804px;
+}
+
+
+.second-footer img {
+    width: 25px;
+    margin: 0;
+}
+
+
+.first-footer ul li img {
+    width: 18px;
 }
     
 }
+
+@media only screen and  (max-width: 723px) {
+    .main-article {
+        margin-top: 8%;
+        width: 1155px;
+        height: 544px;
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/university-canada-bitcoin-cryptocurrency-796x431.jpg");
+        background-size: 100% 100%;
+    }
+    
+    .newspaper {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/tssb-fraud-cryptocurrency-cease-desist-scammers-bitcoin-aws-australia-796x448.png");
+        background-size: 100% 100%;
+    }
+    
+    .side-article {
+        margin-top: 8%;
+        margin-left: 10px;
+        width: 243px;
+        height: 268px;
+        background-color: black;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .main-side {
+        margin-top: 5.3%;
+    }
+    
+    .iphone {
+        margin-top: 10px;
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/TDID-0711-796x417.png");
+        background-size: 100% 100%;
+    }
+    
+        .cover-gradient img {
+            width: 455px;
+            display: block;
+            height: 900px;
+            position: absolute;
+        }
+    
+        .gradient img {
+            width: 455px;
+            display: block;
+            height: 440px;
+            margin-top: 14.4%;
+            position: absolute;
+        }
+    
+        .nav {
+            padding-left: 0;
+            padding-right: 0;
+            height: 80px;
+            position: absolute;
+            box-shadow: 0 0 32px rgba(0,0,0,.15);
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 10;
+            display: block;
+            margin: 0;
+            padding: 0;
+            padding-right: 9px;
+            border: 0;
+            font-size: 100%;
+        }
+        
+        .nav-tnw {
+            background: #131313;
+            display: block;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 32px;
+            max-height: 32px;
+            position: absolute;
+            z-index: 2;
+            width: 875px;
+        }
+        
+        .left {
+           margin-left: 0%;
+        }
+        
+        .nav-tnw {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        
+        .nav-tnw li {
+            float: left;
+            margin-left: 12px;
+            position: relative;
+        }
+    
+    .nss {
+        padding-left: 9px;
+    }
+    
+    .nav-sections li {
+        margin-left: 3px;
+        display: none;
+    }
+    
+    .nav-sections li a {
+        margin: 0;
+        padding: 0; 
+        border: 0;
+        margin-top: -15%;
+        font: inherit;
+        font-size: 11px;
+        vertical-align: baseline;
+        text-decoration: none;
+        color: #aaa;
+    }
+    
+    
+    .content {
+        width: 804px;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+    
+    .latest {
+        margin-left: 20px;
+    }
+    
+    .latest-img {
+        width: 300px;
+        height: 160px;
+    }
+    
+     .latest-articles {
+         display: grid;
+         grid-template-columns: 320px 320px;
+         grid-template-rows: 300px 300px;
+     }
+    
+     .newsimage {
+         width: 508px;
+         height: 376px;
+     }
+     
+     .newsfield {
+         width: 502px;
+         height: 704px;
+         padding-left: 20px;
+         margin-left: 0px;
+         margin-right: 10px;
+         margin-top: 20px;
+         margin-bottom: 20px;
+     }
+    
+     .container {
+         display: grid;
+         grid-template-columns: 500px;
+         width: 804px;
+     }
+    
+     .content {
+        width: 804px;
+     }
+    
+     .sub-article {
+        display: flex;
+        background-color: rgba(255,68,34,.06);
+        width: 508px;
+        height: 92px;
+    }
+    
+    .sub-article div {
+        width: 520px;
+    }
+    
+    .sub-article img {
+        width: 96px;
+        height: 90px;
+    }
+    
+    .sub-article h4 {
+        width: 240px;
+        font-size: 14px;
+    }
+    
+    
+    .first-footer a {
+        font-size: 9px;
+        margin-left: 0.5px;
+    }
+    
+    .second-footer {
+        font-size: 9px;
+    }
+    
+    .latest-articles {
+        width: 804px;
+    }
+    
+    
+    .second-footer img {
+        width: 25px;
+        margin: 0;
+    }
+    
+    
+    .first-footer ul li img {
+        width: 14px;
+        margin: -5px;
+    } 
+    }
