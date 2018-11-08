@@ -1240,14 +1240,14 @@
     }
     
         .cover-gradient img {
-            width: 480px;
+            width: 500px;
             display: block;
             height: 900px;
             position: absolute;
         }
     
         .gradient img {
-            width: 480px;
+            width: 500px;
             display: block;
             height: 440px;
             margin-top: 13%;
@@ -1281,7 +1281,7 @@
             max-height: 32px;
             position: absolute;
             z-index: 2;
-            width: 875px;
+            width: 820px;
         }
         
         .left {
@@ -1323,13 +1323,14 @@
     
     
     .content {
-        width: 804px;
+        width: 750px;
         margin-left: 8%;
         margin-top: 5%;
     }
     
     .latest {
-        margin-left: 20px;
+        margin-left: 10px;
+        width: 350px;
     }
     
     .latest-img {
@@ -1361,11 +1362,11 @@
      .container {
          display: grid;
          grid-template-columns: 350px 350px;
-         width: 804px;
+         width: 700px;
      }
     
      .content {
-        width: 804px;
+        width: 700px;
      }
     
      .sub-article {
@@ -1400,7 +1401,7 @@
     }
     
     .latest-articles {
-        width: 804px;
+        width: 700px;
     }
     
     
