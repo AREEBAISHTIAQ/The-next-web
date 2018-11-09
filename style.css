@@ -1699,11 +1699,7 @@
     }
         
     }
-
-
-        
-
-
+    
 @media only screen and  (max-width: 450px) {
     .main-article {
         margin-left: 2%;
@@ -1923,6 +1919,230 @@
     
     .first-footer ul li img {
         width: 15px;
+    }
+        
+    }
+
+@media only screen and  (max-width: 766px) {
+    .main-article {
+        margin-left: 2%;
+        margin-top: 22%;
+        margin-bottom: -10%;
+        width: 700px;
+        height: 280px;
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/university-canada-bitcoin-cryptocurrency-796x431.jpg");
+        background-size: 100% 100%;
+    }
+    
+    .newspaper {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/tssb-fraud-cryptocurrency-cease-desist-scammers-bitcoin-aws-australia-796x448.png");
+        background-size: 100% 100%;
+    }
+    
+    .side-article {
+        margin-top: 8%;
+        margin-left: 10px;
+        width: 700px;
+        height: 300px;
+        background-color: black;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-side {
+        margin-top: 5.3%;
+    }
+    
+    .iphone {
+        margin-top: 10px;
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/TDID-0711-796x417.png");
+        background-size: 100% 100%;
+    }
+    
+        .cover-gradient img {
+            width: 700px;
+            display: block;
+            height: 268px;
+            position: absolute;
+            margin-top: 0%;
+        }
+    
+        .gradient img {
+            width: 700px;
+            display: block;
+            height: 219px;
+            margin-top: 8%;
+            position: absolute;
+        }
+
+        .main-article h1{
+            font-size: 20px;
+            margin-top: 8%;
+        }
+    
+        .nav {
+            padding-left: 0;
+            padding-right: 0;
+            height: 80px;
+            position: absolute;
+            box-shadow: 0 0 32px rgba(0,0,0,.15);
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 10;
+            display: block;
+            margin: 0;
+            padding: 0;
+            padding-right: 9px;
+            border: 0;
+            font-size: 100%;
+        }
+        
+        .nav-tnw {
+            background: #131313;
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 32px;
+            max-height: 32px;
+            position: absolute;
+            z-index: 2;
+            width: 766px;
+        }
+        
+        .left {
+           margin-left: 0%;
+        }
+        
+        .nav-tnw {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        
+        .nav-tnw li {
+            float: left;
+            margin-left: 12px;
+            position: relative;
+        }
+    
+    .nss {
+        padding-left: 9px;
+    }
+    
+    .nav-sections li {
+        margin-left: 3px;
+        display: none;
+    }
+    
+    .nav-sections li a {
+        margin: 0;
+        padding: 0; 
+        border: 0;
+        font: inherit;
+        font-size: 12px;
+        vertical-align: baseline;
+        text-decoration: none;
+        color: #aaa;
+    }
+    
+    
+    .content {
+        width: 766px;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+    
+    .latest {
+        margin-left: 10px;
+        width: 300px;
+    }
+    
+    .latest-img {
+        width: 260px;
+        height: 200px;
+    }
+    
+     .latest-articles {
+         display: grid;
+         grid-template-columns: 310px 310px;
+         grid-template-rows: 320px 350px;
+         width: 700px !important;
+     }
+    
+     .newsimage {
+         width: 500px;
+         height: 300px;
+     }
+     
+     .newsfield {
+         width: 500px;
+         height: 704px;
+         padding-left: 20px;
+         margin-left: 0px;
+         margin-right: 10px;
+         margin-top: 20px;
+         margin-bottom: 20px;
+     }
+    
+     .container {
+         display: grid;
+         grid-template-columns: 350px;
+         width: 700px;
+     }
+    
+     .content {
+        width: 700px;
+     }
+    
+     .sub-article {
+        display: flex;
+        background-color: rgba(255,68,34,.06);
+        width: 500px;
+        height: 82px;
+    }
+    
+    .sub-article div {
+        width: 420px;
+    }
+    
+    .sub-article img {
+        width: 86px;
+        height: 80px;
+    }
+    
+    .sub-article h4 {
+        width: 210px;
+        font-size: 12px;
+    }
+    
+    
+    .first-footer a {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    
+    .second-footer {
+        font-size: 14px;
+    }
+    
+    .latest-articles {
+        width: 766px;
+    }
+    
+    .second-footer img {
+        width: 40px;
+        margin: 0;
+    }
+    
+    
+    .first-footer ul li img {
+        width: 12px;
+        margin: -100%;
     }
         
     }
